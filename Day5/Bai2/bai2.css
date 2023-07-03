@@ -24,8 +24,8 @@
     position: relative;
 }
 
-.heading__popup-icon--open,
-.heading__popup-icon--close {
+.heading-open,
+.heading-close {
     width: 16px;
     height: 16px;
     font-size: 14px;
@@ -36,7 +36,7 @@
     color: #fff;
 }
 
-.heading__popup-icon--close {
+.heading-close {
     display: none;
 }
 
@@ -53,10 +53,10 @@
     margin-left: 20px;
 }
 
-.heading__popup input:checked ~ .heading__popup-icon--open {
+.heading__popup input:checked ~ .heading-open {
     display: none;
 }
-.heading__popup input:checked ~ .heading__popup-icon--close {
+.heading__popup input:checked ~ .heading-close {
     display: block;
 }
 
