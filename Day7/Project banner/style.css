@@ -13,6 +13,7 @@
 
 .banner-image{
     position: relative;
+    max-width: 100%;
 }
 
 .banner-image img{
@@ -67,7 +68,4 @@ span{
     color: #fff;
     padding: 10px;
     border-radius: 4px;
-}
-.btn {
-    max-width: 95%;
 }
