@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Manrope";
+    src: url(./Manrope/Manrope-VariableFont_wght.ttf);
+    font-weight: 300;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    background: #FAFAFC;
+}
+
+nav{
+    /* position: fixed; */
+    width: 100%;
+}
+
+nav .nav_header{
+    position: relative;
+    max-width: 1300px;
+    padding: 0 30px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_header .logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.fa-chevron-down{
+    font-size: 12px;
+}
+
+.search{
+    margin-left:20px ;
+}
+.right_nav{
+    display: flex;
+}
+
+.right_nav li{
+    list-style: none;
+}
+.right_nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 9px 15px;
+    transform: all 0.4s ease;
+}
+.navbar{
+    display: none;
+    /* list-style: none; */
+}
+button {
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(24, 169, 222);
+}
+/* Hover right_nav */
+.right_nav li > a:hover{
+    color: rgba(0, 0, 0, 0.42);
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+     .navbar{
+        display: block;
+     }
+}
+@media screen and (min-width: 992px) {
+   
+}
