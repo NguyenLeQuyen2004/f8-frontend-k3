@@ -3,63 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mega Menu</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="./ex02.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-   
+    <title>Document</title>
+    <link rel="stylesheet" href="ex02.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav_header">
-        <div class="logo">
-          <a href="#">Sandbox</a>
-        </div>
-        <div class="right_link">
-          <ul class="right_nav">
-            <li>
-              <a href="#"
-                >Demos
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                >Pages
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                >Projects
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                >Blog
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                >Blocks
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
-            </li>
-          </ul>
-          <div class="navbar">          
-                  <i class="fa-solid fa-bars"></i>
-          </li>
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <div class="logo">
+            <a href="#">
+              <img src="images/logo.jpg" alt="" />
+            </a>
           </div>
-          <!-- End right_nav -->
+          <!--End .logo-->
+          <input type="checkbox" id="menu-toggle" hidden />
+          <label class="overlay" for="menu-toggle"></label>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">Demo</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Block</a></li>
+              <li><a href="#">Document</a></li>
+            </ul>
+          </nav>
+
+          <!--End .menu-->
+          <div class="contact">
+            <a href="#" class="btn">Contact</a>
+          </div>
+          <!--end .contact-->
+          <div class="menu-toggle">
+            <label for="menu-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
         </div>
-        <button>Contact</button>
-        <!-- End right_link -->
+        <!--End .header-row-->
       </div>
-    </nav>
+    </header>
   </body>
 </html>
